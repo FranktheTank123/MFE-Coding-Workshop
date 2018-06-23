@@ -46,7 +46,7 @@ Note that the `test` environment folder is usually stored with your `anaconda`. 
 * **Staging**: an environment for final testing immediately prior to deploying to production. A mirror of `production`, but not facing to the users.
 * **Production**: the environment that users/clients directly interact with
 
-![img](https://www.google.com/imgres?imgurl=https://dltj.org/wp-content/uploads/2006/12/deployment-plan.gif&imgrefurl=https://dltj.org/article/software-development-practice/&h=660&w=686&tbnid=9VwQGwKn8iwUzM:&q=production+staging+development%5C&tbnh=160&tbnw=166&usg=__WxfG7Jv8YUxv-Den8CdMombST3U%3D&vet=10ahUKEwjAtIKn5erbAhWJHDQIHR8iBX8Q9QEILTAA..i&docid=lFa_aS9qnRGYRM&sa=X&ved=0ahUKEwjAtIKn5erbAhWJHDQIHR8iBX8Q9QEILTAA)
+![img](img/deployment-plan.gif)
 
 ### Python Debug
 

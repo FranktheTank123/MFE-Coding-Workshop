@@ -122,8 +122,9 @@ Please refer to `src/fluent_python/*.py` for the code.
 Continuous Integration (CI) tools help you stick to your team’s quality standards by running tests every time you push a new commit and reporting the results to a pull request.
 
 Examples:
-	- [Travis CI](https://github.com/marketplace/travis-ci)
-	- [Jenkins](https://jenkins.io/)
+
+- [Travis CI](https://github.com/marketplace/travis-ci)
+- [Jenkins](https://jenkins.io/)
 
 ### makefile
 

@@ -4,10 +4,12 @@ class Student:
 
 
 class UCBMFE(Student):
+	@property  # this allow us to call like: `student.showGPA`, instead of `student.showGPA()`
 	def showGPA(self):
 		return 4.0
 
 class CMUMFE(Students):
+	@property
 	def show_GPA(self): # inconsistent naming!
 		return 3.9 
 
@@ -20,14 +22,17 @@ class Student(ABC):
 		self.name = name
 
 	@abstractmethod
+	@property
 	def showGPA(self):
 		pass
 
 class UCBMFE(Student):
+	@property
 	def showGPA(self):
 		return 4.0
 
 class CMUMFE(Students):
+	@property
 	def show_GPA(self): # inconsistent naming!
 		return 3.9 
 

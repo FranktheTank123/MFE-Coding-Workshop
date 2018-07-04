@@ -105,11 +105,17 @@ Please refer to `src/fluent_python/*.py` for the code.
 	- ...
 
 #### Lint
-	
+
+* Why we need [Lint](https://blog.sideci.com/about-style-guide-of-python-and-linter-tool-pep8-pyflakes-flake8-haking-pyling-7fdbe163079d)?
+* `flake8`: try `flake8 src/production_code`
+* `pylint`: try `pylint src/production_code`
+* `mypy`: type hint (only), try `mypy src/mypy_examples`
+
 
 #### Unit Test
-	Why do we need Unit Test
-	`pytest src`
+
+* Why do we need unit tests?
+* try: `pytest src/production_code`
 
 #### Continuous Integration
 
@@ -121,3 +127,10 @@ Examples:
 
 ### makefile
 
+* Make your life easier
+* `make lint` instead of running `flake8` + `pylint` + `mypy`
+* `make install` <- who doesn't like 1-click setup?
+* checkout `Makefile`
+
+### docker (very brief, no code)
+* ref: [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)

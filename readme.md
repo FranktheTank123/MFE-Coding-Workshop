@@ -1,6 +1,6 @@
 ## Topics
 
-- Version Control
+- Version Control (`git`)
 - Advanced Python
 - Production Python
 
@@ -34,8 +34,20 @@ Note that the `test` environment folder is usually stored with your `anaconda`. 
 6. `which python`
 
 
+### Fluent Python
 
-### 
+Please refer to `src/fluent_python/*.py` for the code.
+
+* List Comprehension 
+* Generator, `yield`, `yield from`
+* Decorator
+* Functional programming
+* Variable Scope
+* Operator overloading
+* Interface and `abc`
+* Inheritance vs. Composition (no `.py`, draw on board and look at [Sklearn](https://github.com/scikit-learn/scikit-learn/blob/69e10b53a632ceac768513e8bf0ff8ff83d6e7fc/sklearn/discriminant_analysis.py#L130))
+* Python function call-by
+
 
 ## Production Python
 
@@ -76,8 +88,10 @@ Note that the `test` environment folder is usually stored with your `anaconda`. 
 	- ...
 
 #### Lint
+	
 
 #### Unit Test
+	`pytest src`
 
 #### Continuous Integration
 
@@ -86,4 +100,6 @@ Continuous Integration (CI) tools help you stick to your team’s quality standa
 Examples:
 	- [Travis CI](https://github.com/marketplace/travis-ci)
 	- [Jenkins](https://jenkins.io/)
+
+### makefile
 

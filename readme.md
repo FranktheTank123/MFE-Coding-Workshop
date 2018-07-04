@@ -7,6 +7,23 @@
 
 ## Version Control
 
+* Why use version control tools?
+* `git` vs. GitHub
+* [Sourcetree](https://www.sourcetreeapp.com/)
+* `git` on white board (distributed version control flow)
+* basic `git` commands:
+	* `git init` and `git clone`
+	* `git status`, `git add` and `git commit`
+	* `git push`
+	* `git pull`
+	* `git checkout` and `git branch`
+	* `git merge` and resolve conflicts
+	* `git rebase`
+	* `git stash`
+* Github specials
+	* fork
+	* pull requests
+
 
 ## Advanced Python
 

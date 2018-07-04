@@ -91,6 +91,7 @@ Please refer to `src/fluent_python/*.py` for the code.
 	
 
 #### Unit Test
+	why need?
 	`pytest src`
 
 #### Continuous Integration
